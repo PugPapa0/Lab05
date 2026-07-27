@@ -120,7 +120,7 @@ public class Main
 		System.out.println("║" + ASCII_ART_1 + givenName + "                                         ║");
 
 		System.out.println("║" + ASCII_ART_2 + LABEL_USCIS_NUM + "       "
-				+ LABEL_CATEGORY + "       " + LABEL_CARD_NUM + "            ║");
+				+ LABEL_CATEGORY + "       " + LABEL_CARD_NUM + "                   ║");
 
 		System.out.println("║" + ASCII_ART_3 + uscisNum + "  "
 				+ category + "            " + cardNum + "    ║");
