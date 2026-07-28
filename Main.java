@@ -96,12 +96,12 @@ public class Main
 		System.out.printf("║%-25s%-45s║%n", ASCII_ART_5, birthCountry);
 		System.out.printf("║%-25s%-45s║%n", ASCII_ART_6, LABEL_TERMS_CONDITIONS);
 		System.out.printf("║%-25s%-45s║%n", ASCII_ART_7, termsAndConditions);
-		System.out.printf("║%-25s%-20s%-25s║%n",
+		System.out.printf("║%-25s%-14s%-31s║%n",
 				ASCII_ART_8,
 				LABEL_BIRTH_DATE,
 				LABEL_SEX);
 
-		System.out.printf("║%-25s%-20s%-25s║%n",
+		System.out.printf("║%-25s%-14s%-31s║%n",
 				ASCII_ART_9,
 				dateOfBirth,
 				sex);
@@ -114,7 +114,9 @@ public class Main
 				"",
 				LABEL_EXPIRE_DATE,
 				expireDate);
-		System.out.printf("║%-20s%48s║%n", ASCII_CREDIT, LABEL_REENTRY_DISCLAIMER);
+		System.out.printf("║%-20s%-50s║%n",
+				ASCII_CREDIT,
+				LABEL_REENTRY_DISCLAIMER);
 		System.out.println("╚══════════════════════════════════════════════════════════════════════╝");
 
 	}
