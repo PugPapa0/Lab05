@@ -78,20 +78,42 @@ public class Main
 		System.out.println("╔══════════════════════════════════════════════════════════════════════╗");
 		System.out.println("║           " + TITLE_USA + "                                   ║");
 		System.out.println("║                               " + TITLE_EAC + "          ║");
-		System.out.printf("║%25s%45s║%n", "", LABEL_SURNAME);
-		System.out.printf("║%" + CARD_WIDTH + "s║%n", surname);
-		System.out.printf("║%-25s%45s║%n", ASCII_ART_0, LABEL_GIVEN_NAME);
-		System.out.printf("║%-25s%45s║%n", ASCII_ART_1, givenName);
-		System.out.printf("║%-25s%-15s%-10s%-20s║%n", ASCII_ART_2, LABEL_USCIS_NUM, LABEL_CATEGORY, LABEL_CARD_NUM);
-		System.out.printf("║%-25s%-15s%-10s%-20s║%n", ASCII_ART_3, uscisNum, category, cardNum);
-		System.out.printf("║%-25s%45s║%n", ASCII_ART_4, LABEL_BIRTH_COUNTRY);
-		System.out.printf("║%-25s%45s║%n", ASCII_ART_5, birthCountry);
-		System.out.printf("║%-25s%45s║%n", ASCII_ART_6, LABEL_TERMS_CONDITIONS);
-		System.out.printf("║%-25s%45s║%n", ASCII_ART_7, termsAndConditions);
-		System.out.printf("║%-25s%-20s%25s║%n", ASCII_ART_8, LABEL_BIRTH_DATE, LABEL_SEX);
-		System.out.printf("║%-25s%-20s%25s║%n", ASCII_ART_9, dateOfBirth, sex);
-		System.out.printf("║%25s%-10s%34s║%n", "", LABEL_VALID_DATE, validDate);
-		System.out.printf("║%25s%-10s%32s║%n", "", LABEL_EXPIRE_DATE, expireDate);
+		System.out.printf("║%-25s%-45s║%n", "", LABEL_SURNAME);
+		System.out.printf("║%25s%-15s%30s║%n", "", surname, "");
+		System.out.printf("║%-25s%-45s║%n", ASCII_ART_0, LABEL_GIVEN_NAME);
+		System.out.printf("║%-25s%-45s║%n", ASCII_ART_1, givenName);
+		System.out.printf("║%-25s%-15s%-15s%-15s║%n",
+				ASCII_ART_2,
+				LABEL_USCIS_NUM,
+				LABEL_CATEGORY,
+				LABEL_CARD_NUM);
+		System.out.printf("║%-25s%-15s%-15s%-15s║%n",
+				ASCII_ART_3,
+				uscisNum,
+				category,
+				cardNum);
+		System.out.printf("║%-25s%-45s║%n", ASCII_ART_4, LABEL_BIRTH_COUNTRY);
+		System.out.printf("║%-25s%-45s║%n", ASCII_ART_5, birthCountry);
+		System.out.printf("║%-25s%-45s║%n", ASCII_ART_6, LABEL_TERMS_CONDITIONS);
+		System.out.printf("║%-25s%-45s║%n", ASCII_ART_7, termsAndConditions);
+		System.out.printf("║%-25s%-20s%-25s║%n",
+				ASCII_ART_8,
+				LABEL_BIRTH_DATE,
+				LABEL_SEX);
+
+		System.out.printf("║%-25s%-20s%-25s║%n",
+				ASCII_ART_9,
+				dateOfBirth,
+				sex);
+		System.out.printf("║%25s%-15s%-30s║%n",
+				"",
+				LABEL_VALID_DATE,
+				validDate);
+
+		System.out.printf("║%25s%-15s%-30s║%n",
+				"",
+				LABEL_EXPIRE_DATE,
+				expireDate);
 		System.out.printf("║%-20s%48s║%n", ASCII_CREDIT, LABEL_REENTRY_DISCLAIMER);
 		System.out.println("╚══════════════════════════════════════════════════════════════════════╝");
 
